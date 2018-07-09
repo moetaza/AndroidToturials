@@ -13,4 +13,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+
+    <Button
+        android:id="@+id/buSimpleDagger2"
+        android:text="Simple dagger 2 Toturial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>

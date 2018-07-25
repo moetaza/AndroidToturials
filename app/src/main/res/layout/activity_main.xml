@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".mainpackage.MainActivity">
 
     <Button
@@ -17,6 +18,25 @@
     <Button
         android:id="@+id/buSimpleDagger2"
         android:text="Simple dagger 2 Toturial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buSimpleDagger2withretrofit"
+        android:text="Simple dagger 2 Toturial with retrofit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/buBroadCastRecievr"
+        android:text="Simple BR 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buBroadCastRecievr2"
+        android:text="Simple BR 2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 

@@ -3,6 +3,8 @@
     package="app.moetaz.androidtoturials">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:name=".mainpackage.AppControl"
@@ -20,7 +22,17 @@
             </intent-filter>
         </activity>
         <activity android:name=".retrofitToturial.MainActivityRetrofit" />
-        <activity android:name=".simpedagger2example.Main3Activity"></activity>
+        <activity android:name=".simpedagger2example.Main3Activity" />
+        <activity android:name=".dagger2retrofitokhttpgson.Main2Activity" />
+        <activity android:name=".broadcastrecieverexample.Main4Activity" />
+
+        <receiver android:name=".broadcastrecieverexample.NumberReciever">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE"></action>
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".simpleBR.Main5Activity"></activity>
     </application>
 
 </manifest>

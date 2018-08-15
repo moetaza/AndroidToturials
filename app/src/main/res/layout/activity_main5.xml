@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".simpleBR.Main5Activity">
 
-    <TextViewt
+    <TextView
         android:id="@+id/textview_br"
         android:textColor="@color/colorAccent"
         android:textSize="25sp"

@@ -18,7 +18,7 @@ public class DBHelper extends SQLiteOpenHelper {
     private static final String CREATE = "create table "+TABLE_NAME+
             "(id integer primary key autoincrement, "+INCOMING_NUMBER+" text);";
     private static final String DROP_TABLE =
-            "drop table if exist "
+            "drop table if exists "
                     +TABLE_NAME;
 
     public DBHelper(Context context){

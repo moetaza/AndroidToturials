@@ -15,11 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".mainpackage.MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".retrofitToturial.MainActivityRetrofit" />
         <activity android:name=".simpedagger2example.Main3Activity" />
@@ -28,11 +24,18 @@
 
         <receiver android:name=".broadcastrecieverexample.NumberReciever">
             <intent-filter>
-                <action android:name="android.intent.action.PHONE_STATE"></action>
+                <action android:name="android.intent.action.PHONE_STATE" />
             </intent-filter>
         </receiver>
 
-        <activity android:name=".simpleBR.Main5Activity"></activity>
+        <activity android:name=".simpleBR.Main5Activity" />
+        <activity android:name=".mainpackage.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

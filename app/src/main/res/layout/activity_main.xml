@@ -39,5 +39,17 @@
         android:text="Simple BR 2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    recordButton
+    <Button
+        android:id="@+id/buImagerotation"
+        android:text="crop and rotate image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/recordButton"
+        android:text="record audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
